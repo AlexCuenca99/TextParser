@@ -10,6 +10,9 @@ For a correct operation is highly recommended to download and import the followi
 
 -   Clone the repositorie in to your favorite IDE (highly recommended NetBeans IDE 12.6)
 -   Download and execute XAMPP in order to up a server and the MySQL DMBS.
--   Open the DMBS and create a new database, now import the file named: correos_vacia.sql. _(You are able to create the database and insert the extracted data too. Just import correos.sql.)_
+-   Open the DMBS and create a new database, now import the file named: [correos_vacia.sql](https://github.com/AlexCuenca99/TextParser/blob/master/correos_vacia.sql)
+
+    **NOTE:** _You are able to create the database and insert the extracted data too. Just import [correos.sql](https://github.com/AlexCuenca99/TextParser/blob/master/correos.sql)_
+
 -   Run TextParser class. You will find it inside of TextParser package.
 -   Go to the DBMS and see the results!
