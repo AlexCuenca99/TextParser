@@ -1,9 +1,18 @@
-# PARSEADOR DE ARCHIVOS DE TEXTO PLANO EN JAVA
+# Java Plane Text File Parser v.1.0
 
-## Como usarlo?
+## Required Packages
 
--   Clone el repositorio en su IDE. Se recomienda NetBeans, pues es el entorno en el que ha sido desarrollado.
--   Ejecute un entorno de desarrollo como XAMPP para levantar un servidor y una base de datos a la cual pueda conectar con la aplicación.
--   Una vez se cree la base de datos, importe el archivo .sql llamado "correos_tabla_vacia".
--   Ejecute la clase DatosCorreo.java para ejecutar la aplicación.
--   Dirijase a la base de datos y refresque la página para observar los datos subidos.
+For a correct operation is highly recommended to download and import the following packages:
+
+-   [mysql-connector-java-5.1.13-bin.jar](https://mega.nz/fileu0hlUbJS#pr_JvdfPvhKeq7kPQzrZx0_oyMkNZuV9vkOs0ECjOvg)
+
+## How to use?
+
+-   Clone the repositorie in to your favorite IDE (highly recommended NetBeans IDE 12.6)
+-   Download and execute XAMPP in order to up a server and the MySQL DMBS.
+-   Open the DMBS and create a new database, now import the file named: [correos_tabla_vacia.sql]()
+
+    **NOTE:** _You are able to create the database and insert the extracted data too. Just import [correos_tabla_con_datos.sql]()_
+
+-   Run TextParser class. You will find it inside of TextParser package.
+-   Go to the DBMS and see the results!
